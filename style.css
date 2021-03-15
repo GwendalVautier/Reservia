@@ -1,0 +1,60 @@
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+.header-bar {
+	display: flex;
+	justify-content:space-between;
+	align-items: center;
+}
+
+.header-nav{
+	width:100%;
+	display:flex;
+	justify-content:flex-end;
+}
+
+.section-recherche{
+	flex-direction: column;
+	flex-basis:100%;
+	justify-content: flex-start;
+}
+
+.section-hebergement{
+	display:flex;
+	flex: 1 1;
+}
+
+
+.section-choix {
+	display:flex;
+	flex-basis: 65%;
+	flex-wrap: wrap;
+	margin:15px;
+	padding:15px;
+}
+
+.aside {
+	display: flex;
+	flex-direction:column;
+	flex-basis: 35%;
+	margin:15px;
+	padding:15px;
+}
+
+
+.section-activite{
+	display:flex;
+}
+
+
+footer {
+	display: flex;
+	justify-content: space-around;
+	flex-basis: 100%;
+	margin-top: auto;
+}
+
+
+

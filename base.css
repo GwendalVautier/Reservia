@@ -1,0 +1,52 @@
+.aside {
+	background-color : #F2F2F2;
+	border-radius: 10px;
+}
+
+.section-choix {
+	background-color : #F2F2F2;
+	border-radius: 10px;
+}
+
+strong{
+	padding:20px;
+	color: #0065FC;
+}
+
+a{
+	padding:20px;
+}
+
+
+body{
+	font-family: 'Raleway', sans-serif;
+}
+
+footer{
+	background-color: #F2F2F2;
+}
+
+article{
+	border-radius:10px;
+	background-color: white;
+	padding:15px;
+}
+
+i
+{
+    font-style: bold;
+	margin: 20px;
+}
+h1
+{
+    font-size: 1.6em;
+}
+
+h2
+{
+    font-size: 1.4em;
+}
+h3
+{
+    font-size: 1.2em;
+}
