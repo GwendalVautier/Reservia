@@ -1,18 +1,45 @@
-body {
+#bloc-page {
 	display: flex;
-	flex-direction: column;
+	
+	flex-wrap:wrap;
 }
 
-.header-bar {
-	display: flex;
-	justify-content:space-between;
+.header {
+	display:flex;
+	flex-basis:100%;
+	flex-wrap:wrap;
 	align-items: center;
+	/*justify-content:flex-end;*/
+}
+
+/*.header-bar {
+	display: flex;
+	align-items: center;
+	flex-basis:100%;
+	justify-content:flex-end;
+}*/
+
+.image {
+	display:flex;
+	
 }
 
 .header-nav{
-	width:100%;
+	
 	display:flex;
-	justify-content:flex-end;
+	margin-left:auto;
+	align-items: center;
+	
+}
+
+.nav-list{
+	display:flex;
+	flex-wrap:wrap;
+}
+
+.sign-up {
+	display: flex;
+		
 }
 
 .section-recherche{
@@ -21,31 +48,61 @@ body {
 	justify-content: flex-start;
 }
 
+.div-list{
+	display:flex;
+	align-items:center;
+}
+
+.filter-list{
+	display:flex;
+}
+
 .section-hebergement{
 	display:flex;
-	flex: 1 1;
+	justify-content: space-around;
+	flex-wrap:wrap;
 }
 
 
 .section-choix {
 	display:flex;
-	flex-basis: 65%;
-	flex-wrap: wrap;
-	margin:15px;
+	flex-direction: column;
+	flex-basis: 70%;
+	margin:10px;
+	
+}
+
+.div-choix{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-around;
+	align-items:center;
 	padding:15px;
 }
 
-.aside {
+
+aside {
 	display: flex;
 	flex-direction:column;
-	flex-basis: 35%;
+	flex-basis: 30%;
+	margin:10px;
+	justify-content: space-around;
+	align-items: center;
+}
+
+
+.section-activites {
+	display:flex;
+	flex-direction: column;
 	margin:15px;
 	padding:15px;
 }
 
-
-.section-activite{
+.div-activites{
 	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-around;
+	align-items:center;
 }
 
 
@@ -54,7 +111,38 @@ footer {
 	justify-content: space-around;
 	flex-basis: 100%;
 	margin-top: auto;
+	align-items:center;
 }
 
 
 
+@media screen and (max-width: 750px) {
+	.section-choix {
+		flex-basis:100%;
+		margin:0px;
+		order:2;
+	}
+	
+	.aside {
+		flex-basis:100%;
+		margin:0px;
+		order:1;
+	}
+	
+	body {
+		color:red;
+		margin:0px;
+		padding:0px;
+	}
+	
+	.header-nav{
+		flex-basis:100%;
+		order:1;
+		justify-content: center;
+		
+	}
+	
+	.sign-up {
+		margin-left:auto;
+	
+}

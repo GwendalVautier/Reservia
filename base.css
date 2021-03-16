@@ -1,3 +1,8 @@
+body {
+	margin:0px;
+}
+
+
 .aside {
 	background-color : #F2F2F2;
 	border-radius: 10px;
@@ -8,28 +13,41 @@
 	border-radius: 10px;
 }
 
+img {
+	width:200px;
+}
+
+article {
+	width:300px;
+	border-radius:10px;
+	background-color: white;
+	padding:15px;
+}
+
 strong{
-	padding:20px;
 	color: #0065FC;
 }
 
 a{
-	padding:20px;
+	margin:2px;
+	display:flex;
 }
 
 
-body{
-	font-family: 'Raleway', sans-serif;
+#bloc-page{
+	font-family: 'Raleway', sans-serif;	
 }
 
 footer{
 	background-color: #F2F2F2;
 }
 
-article{
-	border-radius:10px;
-	background-color: white;
-	padding:15px;
+header {
+	padding:20px;
+}
+
+.section-recherche {
+	padding:20px;
 }
 
 i
