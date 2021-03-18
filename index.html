@@ -21,14 +21,11 @@
 				
 				<nav class="header-nav">
 			<!-- <nav> -->
-					<div class="div-list">
 					<ul class="nav-list">
 						<li><a href="#ancre_hebergement">Hébergements</a></li>
 						<li><a href="#ancre_activite">Activités</a></li>
 						
 					</ul>
-					</div>
-					
 				</nav>
 				<div class="sign-up">
 					<strong>S'inscrire</strong>
@@ -53,20 +50,20 @@
 			<div class="div-list">
 				Filtres
 				<ul class="filter-list">
-					<li><i class="fas fa-money-bill-wave"></i>	<a href="#">Economique</a></li>
-					<li><i class="fas fa-child"></i>			<a href="#">Familial</a></li>
-					<li><i class="fas fa-heart"></i>			<a href="#">Romantique</a></li>
-					<li><i class="fas fa-dog"></i>				<a href="#">Animaux autorisés</a></li>
+					<li class="filter"><i class="fas fa-money-bill-wave"></i>	<a href="#">Economique</a></li>
+					<li class="filter"><i class="fas fa-child"></i>			<a href="#">Familial</a></li>
+					<li class="filter"><i class="fas fa-heart"></i>			<a href="#">Romantique</a></li>
+					<li class="filter"><i class="fas fa-dog"></i>				<a href="#">Animaux autorisés</a></li>
 				</ul>
 			</div>
 			
-			<i class="fas fa-info"></i>Plus de 500 logements sont disponibles dans cette ville
+			<div class="info"><i class="fas fa-info"></i>Plus de 500 logements sont disponibles dans cette ville</div>
 					
 		</section>
 		
 		<div class="section-hebergement">	
 		
-			<section class="section-choix">
+			<section class="section-choix" id="section-choix">
 			<!-- section "Hébergements à marseille" -->	
 				<div>
 					<h2 id="ancre_hebergement">Hébergements à Marseille</h2>			
@@ -132,9 +129,11 @@
 		
 			<aside class="aside">
 				<section>
-				<!-- Hébergements les plus populaires -->				
-					<h2>Les plus populaires</h2>
-				
+				<!-- Hébergements les plus populaires -->
+					
+					<div><h2>Les plus populaires</h2></div>
+					
+					<div class="section-aside">				
 					<a href="#">
 						<article>
 						<!-- choix n°1 -->
@@ -162,6 +161,7 @@
 							Nuit à partir de 68€
 						</article>
 					</a>
+					</div>
 				</section>
 			</aside>	
 		</div>
