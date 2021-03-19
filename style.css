@@ -141,7 +141,7 @@ footer {
 
 
 
-@media screen and (max-width: 800px) {
+@media screen and (orientation: portrait) {
 	#section-choix {
 		flex-basis:100%;
 		margin:0px;
