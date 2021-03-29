@@ -1,5 +1,10 @@
 body {
 	margin:0px;
+	font-size:15px;
+}
+
+h3 {
+	margin:10px 0px 10px 0px;
 }
 
 ul {
@@ -70,6 +75,9 @@ i {
 
 .stars i {
 	color:#0065FC;
+	font-size:14px;
+	padding:0px;
+	margin:1px;
 }
 
 .filter i {
@@ -93,10 +101,12 @@ i {
 	background-color : #F2F2F2;
 	border-radius: 10px;
 	padding:10px;
+	
 }
 
 .section-choix img {
-	height:150px;
+	
+	height:120px;
 	width:100%;
 	object-fit:cover;
 	border-radius: 10px 10px 0px 0px;
@@ -110,13 +120,15 @@ article {
 	display:flex;
 	flex-direction:column;
 	flex-wrap:wrap;
+	margin:5px;
 }
 .section-choix article {
-	width:200px;
+	width:240px;
+	height:200px;
 }
 
 strong{
-	color: #0065FC;
+	font-style:bold;
 }
 
 #bloc-page{

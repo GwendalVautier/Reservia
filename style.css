@@ -11,8 +11,9 @@
 }
 
 
-.image {
+.imagelogo img{
 	display:flex;
+	width:120px;
 	
 }
 
@@ -56,6 +57,7 @@
 	margin: 0px 20px 0px 10px;
 	border-top: 3px white solid;
 	padding-right:20px;
+	color:#0065FC;
 }
 
 .section-recherche {
@@ -146,6 +148,8 @@ aside {
 
 .stars {
 	display:flex;
+	margin-top:auto;
+	margin-bottom:3px;
 }
 
 .section-activites {
@@ -162,6 +166,11 @@ aside {
 	align-items:center;
 }
 
+.act1 img, .act2 img, .act3 img, .act4 img, .act5 img, .act6 img {
+	width:300px;
+	height:300px;
+	object-fit:cover;
+}
 
 footer {
 	display: flex;
@@ -253,6 +262,7 @@ footer {
 
 .pop1, .pop2, .pop3{
 	display:flex;
+	height:140px;
 }
 
 .pop1 img, .pop2 img, .pop3 img {
@@ -262,8 +272,7 @@ footer {
 }
 
 .pop1text, .pop2text, .pop3text {
-	display:flex;
-	flex-direction:column;
+	
 	flex: 1 1;
 }
 
