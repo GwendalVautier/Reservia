@@ -175,6 +175,13 @@ footer {
 		.nav-list li:hover {
 		border-top: 3px #0065FC solid;
 	}
+	
+	.button {
+		border-radius: 0px 10px 10px 0px;
+	}
+	.button i {
+		display:none;
+	}
 }
 
 @media screen and (orientation: portrait) {
@@ -225,7 +232,14 @@ footer {
 		border-bottom: 3px #0065FC solid;
 		border-top: 3px white solid;
 	}
-
+	
+	.button {
+		border-radius: 10px 10px 10px 10px;
+	}
+	.button span {
+		display:none;
+	}
+	
 	footer{
 		flex-direction:column;
 		align-items:baseline;

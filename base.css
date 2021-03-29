@@ -8,8 +8,39 @@ ul {
 	padding-left:0px;
 }
 
+.form {
+	display:flex;
+	align-items:center;
+	margin-top: 20px;
+}
 
+.rechercher i {
+	background-color: #F2F2F2;
+	display:flex;
+	align-items:center;
+	justify-content: center;
+	width:25px;
+	height:25px;
+	border-radius:10px 0px 0px 10px;
+}
 
+.rechercher {
+	border: 1px #F2F2F2 solid;
+	border-radius:10px 0px 0px 10px;
+	display:flex;
+}
+
+.button {
+	background-color:#0065FC ;
+	color: white;
+	font-weight:bold;
+	height:100%;
+}
+
+.recherche {
+	font-weight:bold;
+	border: none;
+}
 
 .filter{
 	border: 2px #F2F2F2 solid;
