@@ -17,6 +17,7 @@ ul {
 	display:flex;
 	align-items:center;
 	margin-top: 20px;
+
 }
 
 .rechercher i {
@@ -30,8 +31,6 @@ ul {
 }
 
 .rechercher {
-	border: 1px #F2F2F2 solid;
-	border-radius:10px 0px 0px 10px;
 	display:flex;
 }
 
@@ -40,19 +39,22 @@ ul {
 	color: white;
 	font-weight:bold;
 	height:100%;
+	border: 2px #0065FC solid;
+	border-radius: 0px 10px 10px 0px;
 }
 
 .recherche {
 	font-weight:bold;
-	border: none;
+	border: 1px #F2F2F2 solid;
+	
 }
 
 .filter{
 	border: 2px #F2F2F2 solid;
-	border-left: 0px;
+	border-left: 0;
 	border-radius: 50px;
 	margin:10px;
-	padding:0px;
+	padding:0px 5px 0px 0px;
 	display:flex;
 }
 
@@ -82,9 +84,11 @@ i {
 
 .filter i {
 	background-color: #DEEBFF;
+	border: 3px #DEEBFF solid;
 	color:#0065FC;
 	border-radius: 50px;
 	padding:10px;
+	margin-right: 5px;
 	display:flex;
 	align-items:center;
 	justify-content: center;
@@ -92,9 +96,14 @@ i {
 	height:25px;
 }
 
-.filter a {
-	margin:5px;
+.filter-list a {
+	padding:5px;
 	
+}
+
+.filter:hover {
+	background-color: #DEEBFF;
+	border:1px #0065FC solid;
 }
 
 .section-choix {
@@ -125,6 +134,9 @@ article {
 .section-choix article {
 	width:240px;
 	height:200px;
+}
+.textchoix1, .textchoix2, .textchoix3, .textchoix4, .textchoix5, .textchoix6 {
+	padding:0px 10px 10px 10px;
 }
 
 strong{
