@@ -64,19 +64,24 @@ i {
 	padding:10px;
 }
 
-img {
-	width:200px;
+.section-choix img {
+	height:150px;
+	width:100%;
+	object-fit:cover;
+	border-radius: 10px 10px 0px 0px;
 }
 
 article {
-	width:300px;
+	
 	border-radius:10px;
 	background-color: white;
-	padding:15px;
-	margin: 10px;
+	padding:3px;
 	display:flex;
 	flex-direction:column;
 	flex-wrap:wrap;
+}
+.section-choix article {
+	width:200px;
 }
 
 strong{

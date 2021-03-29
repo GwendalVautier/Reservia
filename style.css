@@ -232,3 +232,24 @@ footer {
 		padding:20px;
 	}
 }
+
+.section-aside article {
+	height: 30%;
+}
+
+.pop1, .pop2, .pop3{
+	display:flex;
+}
+
+.pop1 img, .pop2 img, .pop3 img {
+	width:40%;
+	object-fit:cover;
+	border-radius: 10px 0px 0px 10px;
+}
+
+.pop1text, .pop2text, .pop3text {
+	display:flex;
+	flex-direction:column;
+	flex: 1 1;
+}
+
