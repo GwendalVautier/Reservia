@@ -107,35 +107,37 @@ footer div ul li {
 	display:flex;
 	flex-direction: column;
 	flex-basis: 70%;
-	margin:10px;
 	flex:1 1;
-	
+	margin:15px;	
+}
+
+.titrechoix {
+	padding:15px;
 }
 
 .div-choix{
 	display:flex;
 	flex-wrap:wrap;
-	justify-content:space-evenly;
 	align-items:center;
-	padding:5px;
 }
 
 
-aside {
+.aside {
 	display: flex;
 	flex-direction:column;
 	flex-basis: 30%;
-	margin:10px;
-	justify-content: space-around;
+	margin:15px;
 	padding:10px;
 	background-color : #F2F2F2;
 	border-radius: 10px;
+	
 	
 }
 
 .aside-title {
 	display:flex;
 	align-items: center;
+	padding: 15px;
 }
 .populaire{
 	margin-left: auto;
@@ -145,7 +147,9 @@ aside {
 	display:flex;
 	flex-direction: column;
 	align-items: center;
-	
+	height:100%;
+	justify-content:space-evenly;
+	padding:20px;
 }
 
 .stars {
@@ -158,14 +162,16 @@ aside {
 	display:flex;
 	flex-direction: column;
 	margin:15px;
-	padding:15px;
 }
 
 .div-activites{
 	display:flex;
-	flex-wrap:wrap;
 	justify-content:space-around;
 	align-items:center;
+}
+
+.div-activites article{
+	padding:0px;
 }
 
 .act1, .act2, .act3, .act4, .act5, .act6 {
@@ -186,12 +192,20 @@ aside {
 	flex:1 1;
 }
 
+.acttext {
+	padding:10px;
+	height:30px;
+}
+
 footer {
 	display: flex;
-	justify-content: space-around;
 	flex-basis: 100%;
 	margin-top: auto;
-	align-items:center;
+	padding: 20px 60px 20px 60px;
+}
+
+footer div {
+	width:30%;
 }
 
 @media screen and (orientation: landscape) {
@@ -205,7 +219,7 @@ footer {
 	}
 	
 	.button {
-		border-radius: 0px 10px 10px 0px;
+		border-radius: 0px 20px 20px 0px;
 	}
 	.button i {
 		display:none;
@@ -222,7 +236,7 @@ footer {
 		height:130px;
 		width:100%;
 		object-fit:cover;
-		border-radius: 10px 10px 0px 0px;
+		border-radius: 20px 20px 0px 0px;
 	}
 	
 	.ligne1, .ligne2 {
@@ -238,7 +252,7 @@ footer {
 		height:450px;
 	}
 	
-	.div-activites div {
+	.lot {
 		width:20%;
 		height:100%;
 		margin:15px;
@@ -264,21 +278,25 @@ footer {
 	.act2 {
 		height:45%;
 		margin:10px;
+		margin-bottom: auto;
 	}
 	
 	.act3 {
 		height:35%;
 		margin:10px;
+		margin-top:auto;
 	}
 	
 	.act5 {
 		height:40%;
 		margin:10px;
+		margin-bottom:auto;
 	}
 	
 	.act6 {
 		height:50%;
 		margin:10px;
+		margin-top:auto;
 	}
 	
 	.act2 a, .act3 a, .act5 a, .act6 a{
@@ -286,7 +304,7 @@ footer {
 	}
 	
 	.act2 img, .act3 img, .act5 img, .act6 img {
-		height:90%;
+		height:80%;
 	}
 }
 
@@ -385,9 +403,6 @@ footer {
 	}
 }
 
-.section-aside article {
-	height: 30%;
-}
 
 .pop1, .pop2, .pop3{
 	display:flex;
@@ -395,9 +410,9 @@ footer {
 }
 
 .pop1 img, .pop2 img, .pop3 img {
-	width:40%;
+	width:30%;
 	object-fit:cover;
-	border-radius: 10px 0px 0px 10px;
+	border-radius: 20px 0px 0px 20px;
 }
 
 .pop1text, .pop2text, .pop3text {
