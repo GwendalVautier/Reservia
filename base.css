@@ -95,12 +95,6 @@
 
 
 
-.ligne1, .ligne2 {
-	display:flex;
-	align-items:center;
-	justify-content:space-around;
-}
-
 .textchoix1, .textchoix2, .textchoix3, .textchoix4, .textchoix5, .textchoix6 {
 	padding:0px 10px 0px 10px;
 	font-size:0.8;
